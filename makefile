@@ -4,7 +4,7 @@ all: README.md
 
 README.md: guessinggame.sh
 	touch README.md
-	echo "Guessing game" > README.md
+	echo "# guessinggame" > README.md
 	echo ""
 	echo "Date and time" >> README.md
 	echo $$(date) >> README.md
